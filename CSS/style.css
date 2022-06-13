@@ -1,0 +1,153 @@
+body {
+  /* height: 100%; */
+  margin: 0;
+  text-align: center;
+  font-size: 1rem;
+  font-family: monospace;
+  width: 100%;
+}
+hr {
+  border: dotted #eaf6f6 6px;
+  
+  border-bottom: none;
+  width: 4%;
+  height: 0px;
+  margin: 100 auto;
+}
+h1 {
+  font-family: "Sacramento", cursive;
+  font-size: 3.5rem;
+  margin: 50px auto 0 auto;
+  color: #66bfbf;
+}
+h2 {
+  font-size: 2.5rem;
+  font-weight: normal;
+  color: #66bfbf;
+}
+h3 {
+  font-size: 2.5rem;
+  font-weight: normal;
+  color: #66bfbf;
+}
+h5 {
+  font-size: 1.5rem;
+  font-weight: normal;
+  color: #66bfbf;
+}
+a{
+  color: #11999E;
+}
+/* div {
+  background-color: #e4f9f5;
+} */
+
+.sanjeeb {
+  height: 20em;
+}
+.Top-container {
+  /* margin-left: 40px; */
+  /* width: 100%; */
+  background-color: #e7eaf6;
+  position: relative;
+  padding: 40px;
+}
+.pro {
+  text-decoration: underline;
+}
+.top-cloud {
+  margin-top: 50px;
+  position: relative;
+  margin-left: 400px;
+}
+.profile{
+  margin-bottom: 40px;
+}
+/* p { */
+/* font-family: "Merriweather", serif; */
+/* font-family: monospace;
+} */
+
+.bottom-cloud {
+  position: absolute;
+  margin-right: 400px;
+}
+.skill-row {
+  margin: 100px auto 100px auto;
+  /* text-align: center; */
+  width: 50%;
+  text-align: left;
+  line-height: 1.5;
+
+  /* width: 25%; */
+}
+/* .skill-row p{
+  text-align: left;
+} */
+.skill-img {
+  float: left;
+  width: 25%;
+}
+.world-map-img {
+  float: right;
+  /* margin-left: 30px; */
+  width: 30%;
+}
+.gyan {
+  /* clear: right; This will make the paragraph appear below the image of earth. It is basically the opposite of float */
+  font-size: 17px;
+}
+.intro {
+  width: 48%;
+  margin: auto;
+}
+
+.bottom-container {
+  text-decoration: none;
+  margin-top: 20px 0px;
+  padding: 50px 0px 20px;
+  background-color: #66bfbf;
+  height: 20%;
+  color: #eaf6f6;
+  /* width: 100%; */
+}
+/* .skill-row img {
+  width: 25%;
+} */
+.btn {
+  border-radius: 8px;
+  text-decoration: none;
+  background-color: #66bfbf;
+  color: #eaf6f6;
+  display: inline-block;
+  margin: 40px auto 30px auto;
+  padding: 10px;
+}
+
+/*Display Property of CSS
+
+  It is of four types- Inline, block,inline-block ,none .
+ 
+ Block element sits in different lines but we have the option to resize the width
+ inline element can sit next to each other .however they dont have the option to resize the width
+
+ we can use the inline-block if we want to make it in line as well as resize the width
+ for eg: images are inline block element as they sits next to each other as well as we can resize the width
+
+ One more Property is visibility :- it can done with none display property or using visibility =hidden
+ */
+/* p {
+  display: inline-block;
+  visibility: hidden;
+} */
+
+/* .Top {
+  border: solid 10px;
+  padding: 20px;
+  height: 200px;
+  width: 200px;
+} */
+
+.middle-container {
+  margin: 50px 0px;
+}
